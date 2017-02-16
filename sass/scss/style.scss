@@ -1,0 +1,35 @@
+/*!
+ Theme Name:   OFW Store
+ Theme URI:    http://ofwstore.com.ph
+ Description:  
+ Author:      Dave Ramirez
+ Template:     dokan-theme-v2.2.2
+ Version:      1.0.0
+*/
+
+@import "partials/normalize";
+@import "partials/fonts";
+@import "partials/globals";
+@import "partials/variables";
+@import "partials/mixins";
+@import "partials/base";
+@import "partials/layout";
+@import "partials/header";
+@import "partials/sidebar";
+@import "partials/footer";
+@import "partials/homepage";
+@import "partials/mediaqueries";
+
+body {
+	
+	#page {
+
+		background: black;
+		
+	}
+	
+}
+
+header {
+	color: red;
+}
