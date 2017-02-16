@@ -18,7 +18,7 @@ gulp.task('scripts', function() {
 // Style Task
 
 gulp.task('style', function() {
-	gulp.src('sass/scss/style.scss')
+	gulp.src('sass/scss/**/*.scss')
 	.pipe(plumber())
 	.pipe(sass({
 		outputStyle: 'expanded'
@@ -42,7 +42,7 @@ gulp.task('watch', function() {
 	 livereload.listen();
 
 	gulp.watch('sass/js/*.js', ['scripts']);
-	gulp.watch('sass/scss/style.scss', ['style']);
+	gulp.watch('sass/scss/**/*.scss', ['style']);
 	gulp.watch('*.php', ['php']);
 });
 

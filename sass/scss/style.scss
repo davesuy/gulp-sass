@@ -7,29 +7,16 @@
  Version:      1.0.0
 */
 
-@import "partials/normalize";
-@import "partials/fonts";
-@import "partials/globals";
-@import "partials/variables";
-@import "partials/mixins";
-@import "partials/base";
-@import "partials/layout";
-@import "partials/header";
-@import "partials/sidebar";
-@import "partials/footer";
-@import "partials/homepage";
-@import "partials/mediaqueries";
+@import "sass/scss/partials/normalize";
+@import "sass/scss/partials/fonts";
+@import "sass/scss/partials/globals";
+@import "sass/scss/partials/variables";
+@import "sass/scss/partials/mixins";
+@import "sass/scss/partials/base";
+@import "sass/scss/partials/layout";
+@import "sass/scss/partials/header";
+@import "sass/scss/partials/sidebar";
+@import "sass/scss/partials/footer";
+@import "sass/scss/partials/homepage";
+@import "sass/scss/partials/mediaqueries";
 
-body {
-	
-	#page {
-
-		background: black;
-		
-	}
-	
-}
-
-header {
-	color: red;
-}
