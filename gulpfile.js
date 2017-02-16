@@ -27,6 +27,13 @@ gulp.task('style', function() {
 	.pipe(livereload());
 });
 
+// PHP
+
+gulp.task('php', function() {
+	gulp.src('*.php')
+	.pipe(livereload());
+});
+
 // Watch Task
 // Watches JS
 
@@ -36,6 +43,7 @@ gulp.task('watch', function() {
 
 	gulp.watch('sass/js/*.js', ['scripts']);
 	gulp.watch('sass/scss/style.scss', ['style']);
+	gulp.watch('*.php', ['php']);
 });
 
 gulp.task('default', ['scripts', 'style', 'watch']);
