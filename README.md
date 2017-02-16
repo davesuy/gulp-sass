@@ -1,1 +1,1 @@
-Gulp Sass for Wordpress development.
+Gulp Sass for Wordpress development..
