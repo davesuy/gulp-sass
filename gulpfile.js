@@ -21,6 +21,8 @@ gulp.task('style', function() {
 	gulp.src('sass/scss/**/*.scss')
 	.pipe(plumber())
 	.pipe(sass({
+		sourceComments: 'map',
+  		sourceMap: 'sass',
 		outputStyle: 'expanded'
 	}))
 	.pipe(gulp.dest(''))
